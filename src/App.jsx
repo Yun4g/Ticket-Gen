@@ -1,9 +1,10 @@
 
-import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
 import './index.css';
 import Form from './components/FormPage/Form';
-import { Route } from 'react-router-dom';
 import BookedTicket from './components/FormPage/BookedTicket';
+
 
 
 function App() {
@@ -13,13 +14,11 @@ function App() {
 
   return (
        <main className='  h-full w-full'>
-    
-
-
-
-           <Route path='/' component={Form} />
-           <Route path='/ Tickets' component={BookedTicket} />
-        
+          <Routes>
+            <Route path='/' element={<Form/>} />
+          
+       
+          </Routes>
        </main> 
 
   )
