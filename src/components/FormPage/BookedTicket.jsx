@@ -3,7 +3,7 @@ import { GlobalContext } from "../GlobalContext";
 import html2canvas from "html2canvas";
 
 function BookedTicket() {
-  const { preview, setPage, userName } = useContext(GlobalContext);
+  const {  setPage, userName } = useContext(GlobalContext);
   const ticketRef = useRef(null);
 
   const handleBookAnotherTicket = () => {

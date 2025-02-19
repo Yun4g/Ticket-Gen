@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import BookedTicket from "../FormPage/BookedTicket";
 
 
 function NavBar() {
@@ -10,14 +11,18 @@ function NavBar() {
 
               <div className=" text-white  fonts hidden md:flex items-center font-jeju gap-4 ">
                  <Link>Events</Link>
-                 <Link>My Tickets </Link>
+                 <Link to={BookedTicket}>My Tickets </Link>
                  <Link>About Projects</Link>
 
               </div>
 
                <div  className="">
+
                   <button className=" w-28 md:w-[169px] h-[52px] font-jeju md:text-lg bg-white rounded-xl">
-                       My Tickets 
+                    <Link to={BookedTicket}>
+                    My Tickets 
+                    </Link>
+                       
                   </button>
                </div>
         </nav>

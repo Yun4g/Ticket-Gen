@@ -48,7 +48,7 @@ const setUserDetails = (formData) => {
     const [buttonsChoice, setButtonsChioce] = useState([
         { id: "free", label: "Free", type: "REGULAR ACCESS", price: "Free" },
         { id: "vip", label: "VIP", type: "VIP ACCESS", price: "50" },
-        { id: "vvip", label: "VVIP", type: "VVIP ACCESS", price: "50" }
+        { id: "vvip", label: "VVIP", type: "VVIP ACCESS", price: "150" }
     ]);
 
     const handleUserChoice = () => {
