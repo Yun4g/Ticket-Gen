@@ -1,0 +1,49 @@
+@import url('https://db.onlinewebfonts.com/c/1a5c2d8bbd4e28d99a6efcbb9a5b378f?family=JejuMyeongjo');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+   height: 100vh;
+   width: 100%;
+  
+}
+  
+
+.fonts{
+  font-family: 'JejuMyeongjo';
+}
+
+.fonts2{
+  font-family: 'Bangers';
+}
+
+
+
+.sectionbg{
+  background-color: #02191D;
+}
+
+.innerSectionbg{
+  background-color: #041E23;
+}
+
+.text{
+  background-color: #0E464F;
+
+}
+
+.dragIMGbg{
+  background-color: #08252B;
+}
+
+.uploader{
+  background-color: #052228;
+}
+
+
+/* #072227 */
+/* #0a2d35 */

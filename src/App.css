@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.TicketBg{
+    background-image: url('/Ticket.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

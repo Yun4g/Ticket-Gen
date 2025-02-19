@@ -1,0 +1,13 @@
+
+  const handleDownloadTicket = () => {
+    if (ticketRef.current) {
+      // Capture the ticket container as an image
+      html2canvas(ticketRef.current).then((canvas) => {
+        const imgData = canvas.toDataURL("image/png"); // Convert canvas to image URL
+        const link = document.createElement("a"); // Create a download link
+        link.href = imgData;
+        link.download = "ticket.png"; // Set the file name
+        link.click(); // Trigger the download
+      });
+    }
+  };
