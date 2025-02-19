@@ -32,7 +32,7 @@ function GlobalState({ children }) {
 
 const setUserDetails = (formData) => {
   setUserName(formData.name); 
-  localStorage.setItem("name", formData.name); // Save to localStorage for persistence
+  localStorage.setItem("name", formData.name); 
 };
 
     useEffect(() => {

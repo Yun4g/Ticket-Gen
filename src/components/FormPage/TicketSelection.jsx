@@ -82,7 +82,7 @@ function TicketSelection() {
             <ChevronDown className="h-4 w-4 text-white" />
           </SelectTrigger>
 
-          <SelectContent className=" w-[300px] md:w-[400px] mt-3 bg-section bg-opacity-80 rounded-[12px] px-4 p-[8px] text-white" style={{ border: "1px solid #0E464F" }} position="popper">
+          <SelectContent className=" w-[300px] md:w-[400px] mt-3 h-36 bg-section overflow-scroll bg-opacity-80 rounded-[12px] px-4 p-[8px] text-white" style={{ border: "1px solid #0E464F" }} position="popper">
             {selectNumbers.map((number) => (
               <SelectItem key={number} value={String(number)} className="text-white w-full cursor-pointer hover:bg-sky-900">
                 {number}

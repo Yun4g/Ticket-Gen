@@ -22,7 +22,7 @@ function NavBar() {
                <div  className="">
 
                   <button className=" w-28 md:w-[169px] h-[52px] font-jeju md:text-lg bg-white rounded-xl">
-                    <Link to={'Ticket'}>
+                    <Link >
                     My Tickets 
                     </Link>
                        
